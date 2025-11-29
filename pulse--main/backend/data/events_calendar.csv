@@ -1,0 +1,17 @@
+date,event_name,event_type,impact_level,expected_surge_percent
+2024-11-01,Diwali,Festival,High,25
+2024-11-02,Diwali Day 2,Festival,High,30
+2024-11-03,Diwali Day 3,Festival,Medium,20
+2024-11-04,Diwali Day 4,Festival,Medium,15
+2024-11-05,Diwali Day 5,Festival,Low,10
+2024-12-25,Christmas,Holiday,Low,5
+2024-12-31,New Year Eve,Holiday,Medium,12
+2025-01-01,New Year,Holiday,Low,8
+2025-01-26,Republic Day,Holiday,Low,5
+2025-03-08,Holi,Festival,High,22
+2025-03-09,Holi Day 2,Festival,Medium,18
+2025-03-10,Holi Day 3,Festival,Low,10
+2025-08-15,Independence Day,Holiday,Low,5
+2025-10-02,Gandhi Jayanti,Holiday,Low,5
+2025-10-24,Dussehra,Festival,Medium,15
+2025-11-12,Diwali 2025,Festival,High,28

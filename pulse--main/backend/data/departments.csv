@@ -1,0 +1,11 @@
+department_id,department_name,total_beds,icu_beds,head_of_department,contact,floor
+DEPT001,Emergency,50,10,Dr. Sharma,+91-22-2345-6701,Ground
+DEPT002,Cardiology,30,8,Dr. Patel,+91-22-2345-6702,2nd
+DEPT003,Pediatrics,25,5,Dr. Kumar,+91-22-2345-6703,3rd
+DEPT004,Orthopedics,20,3,Dr. Verma,+91-22-2345-6704,4th
+DEPT005,Neurology,15,6,Dr. Mehta,+91-22-2345-6705,5th
+DEPT006,General,60,0,Dr. Gupta,+91-22-2345-6706,1st
+DEPT007,Radiology,0,0,Dr. Desai,+91-22-2345-6707,Ground
+DEPT008,Laboratory,0,0,Dr. Joshi,+91-22-2345-6708,Ground
+DEPT009,Pharmacy,0,0,Mr. Raj,+91-22-2345-6709,Ground
+DEPT010,Administration,0,0,Ms. Reddy,+91-22-2345-6710,1st

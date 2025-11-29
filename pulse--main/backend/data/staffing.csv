@@ -1,0 +1,21 @@
+staff_id,name,role,department,shift,days_of_week,hourly_rate_inr,status
+S001,Dr. Sharma,Doctor,Emergency,Morning,Mon-Fri,2500,Active
+S002,Dr. Patel,Doctor,Cardiology,Morning,Mon-Fri,2800,Active
+S003,Dr. Kumar,Doctor,Pediatrics,Morning,Mon-Sat,2600,Active
+S004,Dr. Singh,Doctor,Emergency,Evening,Mon-Fri,2500,Active
+S005,Dr. Mehta,Doctor,Neurology,Morning,Mon-Fri,3000,Active
+S006,Nurse Anjali,Nurse,Emergency,Morning,Mon-Sun,450,Active
+S007,Nurse Priya,Nurse,Emergency,Evening,Mon-Sun,450,Active
+S008,Nurse Ravi,Nurse,Cardiology,Morning,Mon-Fri,450,Active
+S009,Nurse Sunita,Nurse,Pediatrics,Morning,Mon-Sat,450,Active
+S010,Nurse Deepak,Nurse,Emergency,Night,Mon-Sun,500,Active
+S011,Nurse Kavita,Nurse,General,Morning,Mon-Fri,450,Active
+S012,Nurse Rahul,Nurse,Orthopedics,Morning,Mon-Fri,450,Active
+S013,Dr. Verma,Doctor,Orthopedics,Morning,Mon-Fri,2600,Active
+S014,Dr. Gupta,Doctor,General,Morning,Mon-Sat,2400,Active
+S015,Nurse Pooja,Nurse,Neurology,Morning,Mon-Fri,450,Active
+S016,Technician Amit,Technician,Radiology,Morning,Mon-Sat,350,Active
+S017,Technician Neha,Technician,Laboratory,Morning,Mon-Sat,350,Active
+S018,Pharmacist Raj,Pharmacist,Pharmacy,Morning,Mon-Sat,400,Active
+S019,Pharmacist Sonia,Pharmacist,Pharmacy,Evening,Mon-Sat,400,Active
+S020,Admin Vikram,Admin,Administration,Morning,Mon-Fri,300,Active

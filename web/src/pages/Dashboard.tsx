@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import KpiCard from '../components/KpiCard'
 import ForecastChart from '../components/ForecastChart'
 import AlertList from '../components/AlertList'
+import PulseAI from '../components/PulseAI'
 import { api, loadAuthFromStorage } from '../lib/api'
 
 type Forecast = { department_id: number; horizon_date: string; inflow_pred: number; inflow_ci_low: number; inflow_ci_high: number }
@@ -34,22 +35,32 @@ export default function Dashboard() {
 
   return (
     <div className="space-y-6">
+      {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <KpiCard title="Bed Utilization" value={`${bedUtil}%`} sub={`${load.beds_occupied || 0}/${load.beds_total || 0}`} />
         <KpiCard title="ICU Occupancy" value={`${load.icu_occupied || 0}/${load.icu_total || 0}`} />
         <KpiCard title="Staff on Shift" value={`${load.staff_on_shift || 0}`} />
         <KpiCard title="Next ER Pred" value={`${chart[0]?.pred ?? '-'}`} sub="Tomorrow" />
       </div>
+
+      {/* ER Forecast */}
       <div className="space-y-2">
         <div className="text-sm text-neutral-400">ER Forecast (7 days)</div>
         <ForecastChart data={chart} />
       </div>
+
+      {/* Live Alerts */}
       <div className="space-y-2">
-        <div className="text-sm text-neutral-400">Live Alerts</div>
+        <div className="flex items-center justify-between">
+          <div className="text-sm text-neutral-400">Live Alerts</div>
+          <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+        </div>
         <AlertList />
       </div>
     </div>
   )
 }
+
+
 
 

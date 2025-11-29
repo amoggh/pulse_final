@@ -1,0 +1,5 @@
+item_id,item_name,current_stock,min_threshold
+O2_CYL,Oxygen Cylinder,100,20
+NEB,Nebulizer,50,10
+PPE_KIT,PPE Kit,500,100
+TRAUMA_KIT,Trauma Kit,30,5

@@ -1,0 +1,5 @@
+dept_id,name,capacity
+1,Emergency,50
+2,ICU,40
+3,General Ward,300
+4,Pediatrics,110

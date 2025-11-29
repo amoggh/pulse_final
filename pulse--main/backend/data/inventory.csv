@@ -1,0 +1,21 @@
+item_id,item_name,category,current_stock,minimum_stock,unit,unit_price_inr,supplier,last_restock_date
+INV001,Surgical Masks,PPE,5000,2000,pieces,15,MedSupply Co,2024-11-20
+INV002,N95 Respirators,PPE,1200,500,pieces,85,SafetyFirst Ltd,2024-11-18
+INV003,Nebulizers,Respiratory,45,20,units,12500,MedEquip India,2024-11-15
+INV004,Oxygen Cylinders,Respiratory,120,50,units,8500,OxyGen Solutions,2024-11-21
+INV005,Inhalers (Salbutamol),Medication,800,300,units,250,PharmaCare,2024-11-19
+INV006,IV Fluids (Saline),Medication,2500,1000,bags,180,HealthPlus,2024-11-22
+INV007,Syringes (10ml),Consumables,10000,5000,pieces,8,MedSupply Co,2024-11-20
+INV008,Gloves (Latex),PPE,15000,8000,pairs,12,SafetyFirst Ltd,2024-11-21
+INV009,Ventilators,Critical Care,12,5,units,850000,MedEquip India,2024-10-15
+INV010,ECG Machines,Diagnostics,8,3,units,450000,DiagnoTech,2024-09-20
+INV011,Blood Pressure Monitors,Diagnostics,50,20,units,8500,HealthMonitor Co,2024-11-18
+INV012,Thermometers (Digital),Diagnostics,200,100,units,450,MedSupply Co,2024-11-22
+INV013,Pulse Oximeters,Diagnostics,80,40,units,2500,HealthMonitor Co,2024-11-19
+INV014,Wheelchairs,Equipment,25,10,units,18500,MobilityAid India,2024-10-28
+INV015,Hospital Beds,Equipment,200,180,units,125000,HospitalFurn Ltd,2024-08-15
+INV016,Antibiotics (Amoxicillin),Medication,5000,2000,tablets,5,PharmaCare,2024-11-21
+INV017,Paracetamol,Medication,8000,3000,tablets,2,PharmaCare,2024-11-22
+INV018,Insulin,Medication,300,100,vials,850,DiabetesCare,2024-11-17
+INV019,Bandages,Consumables,3000,1500,rolls,45,MedSupply Co,2024-11-20
+INV020,Surgical Sutures,Consumables,1000,400,packs,125,SurgicalSupply,2024-11-16
